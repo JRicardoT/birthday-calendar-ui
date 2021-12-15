@@ -1,5 +1,6 @@
 import React from "react";
 import BirthdayCard from "../BirthdayCards/BirthdayCard";
+import './Birthdays.css';
 
 const Birthdays = ({ months }) => {
   // console.log(months)
@@ -13,7 +14,7 @@ const Birthdays = ({ months }) => {
     )
   })
   return (
-    <section>
+    <section className='birthday-cards-container'>
       {BirthdayCards}
     </section>
   )
