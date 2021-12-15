@@ -2,14 +2,14 @@ import React from "react";
 import BirthdayCard from "../BirthdayCards/BirthdayCard";
 import './Birthdays.css';
 
-const Birthdays = ({ months }) => {
-  // console.log(months)
+const Birthdays = ({ months, birthdays }) => {
   const BirthdayCards = months.map(month => {
     return (
       <BirthdayCard 
         name={month.name}
         id={month.id}
         key={month.id}
+        birthdays={birthdays}
       />
     )
   })
