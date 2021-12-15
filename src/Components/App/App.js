@@ -19,8 +19,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.months)
-    // console.log(this.state.birthdays)
     return (
       <div className="App">
         <h1>Birthdays</h1>
