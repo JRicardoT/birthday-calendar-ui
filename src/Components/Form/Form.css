@@ -1,0 +1,18 @@
+input {
+  width: 15vw;
+  height: 4vh;
+}
+
+.bday-form {
+  border: 2px solid black;
+  width: 98vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.add-bday-bttn {
+  width: 15vw;
+  height: 4vh;
+}
