@@ -1,8 +1,9 @@
 import React from "react";
+import './BirthdayCard.css'
 
 const BirthdayCard = ({ name, id }) => {
   return (
-    <article>
+    <article className='birthday-card'>
       <h2>{name}</h2>
     </article>
   )
