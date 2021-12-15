@@ -1,5 +1,5 @@
 import React from "react";
-import BirthdayCard from "../BithdayCards/BirthdayCard";
+import BirthdayCard from "../BirthdayCards/BirthdayCard";
 
 const Birthdays = ({ months }) => {
   // console.log(months)
